@@ -1,4 +1,4 @@
-\# Literature Review
+# Literature Review
 
 
 
@@ -6,7 +6,7 @@ Our literature review spans four interconnected domains that directly inform the
 
 
 
-\## 1. Transformer-Based Sentiment Analysis
+## 1. Transformer-Based Sentiment Analysis
 
 
 
@@ -18,7 +18,7 @@ These works justify our choice of a transformer-based model over rule-based sent
 
 
 
-\## 2. Aspect-Based Sentiment Analysis (ABSA)
+## 2. Aspect-Based Sentiment Analysis (ABSA)
 
 
 
@@ -30,7 +30,7 @@ This literature informs our multi-dimensional analysis beyond overall sentiment 
 
 
 
-\## 3. Bias in Online Reviews
+## 3. Bias in Online Reviews
 
 
 
@@ -42,7 +42,7 @@ These findings inform our interpretation strategy: sentiment signals are treated
 
 
 
-\## 4. Calibration, Human-AI Interaction \& Visualization
+## 4. Calibration, Human-AI Interaction \& Visualization
 
 
 
