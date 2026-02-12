@@ -1,8 +1,8 @@
-\# Project Proposal: McDonald’s Social Media Command Centre (SMCC)
+# Project Proposal: McDonald’s Social Media Command Centre (SMCC)
 
 
 
-\## Problem \& Importance
+## Problem \& Importance
 
 
 
@@ -22,7 +22,7 @@ This creates a human-centered problem: operational managers need reliable, inter
 
 
 
-\## Prior Systems \& Gaps
+## Prior Systems \& Gaps
 
 
 
@@ -50,7 +50,7 @@ Current dashboards aggregate metrics but rarely communicate uncertainty, bias, o
 
 
 
-\## Proposed Approach
+## Proposed Approach
 
 
 
@@ -62,15 +62,15 @@ The system will include:
 
 
 
-\- Transformer-based sentiment classification (RoBERTa)
+- Transformer-based sentiment classification (RoBERTa)
 
-\- Confidence thresholding to flag low-certainty predictions
+- Confidence thresholding to flag low-certainty predictions
 
-\- Aspect-level signal tracking (e.g., service vs. food)
+- Aspect-level signal tracking (e.g., service vs. food)
 
-\- Geographic and temporal performance analysis
+- Geographic and temporal performance analysis
 
-\- Transparent dashboard visualization guided by human-AI interaction principles (Amershi et al., 2019) and visual clarity principles (Tufte, 2001)
+- Transparent dashboard visualization guided by human-AI interaction principles (Amershi et al., 2019) and visual clarity principles (Tufte, 2001)
 
 
 
@@ -82,7 +82,7 @@ Rather than prescribing actions, the SMCC surfaces interpretable signals such as
 
 
 
-\## Plan for Checkpoint 2 Validation via Prompting
+## Plan for Checkpoint 2 Validation via Prompting
 
 
 
@@ -100,13 +100,13 @@ For Checkpoint 2, we will validate the usefulness of the SMCC using structured p
 
 Outputs will be evaluated on:
 
-\- Factual consistency with dashboard metrics
+- Factual consistency with dashboard metrics
 
-\- Clarity and interpretability
+- Clarity and interpretability
 
-\- Alignment with uncertainty signaling
+- Alignment with uncertainty signaling
 
-\- Usefulness to a hypothetical operations manager
+- Usefulness to a hypothetical operations manager
 
 
 
@@ -118,7 +118,7 @@ This evaluation ensures that generative components enhance, rather than distort,
 
 
 
-\## Risks \& Mitigation
+## Risks \& Mitigation
 
 
 
@@ -142,7 +142,7 @@ This evaluation ensures that generative components enhance, rather than distort,
 
 
 
-\## Expected Contribution
+## Expected Contribution
 
 
 
