@@ -34,11 +34,11 @@ However, three major gaps remain:
 
 
 
-1\. \*\*Calibration Gap:\*\* High accuracy does not imply reliable confidence estimates (Guo et al., 2017).
+1\. **Calibration Gap:** High accuracy does not imply reliable confidence estimates (Guo et al., 2017).
 
-2\. \*\*Bias Gap:\*\* Online reviews are systematically skewed toward extreme ratings (Li \& Hitt, 2008; Hu et al., 2009).
+2\. **Bias Gap:** Online reviews are systematically skewed toward extreme ratings (Li \& Hitt, 2008; Hu et al., 2009).
 
-3\. \*\*Human-AI Gap:\*\* Many systems prioritize automation over transparent decision support (Amershi et al., 2019).
+3\. **Human-AI Gap:** Many systems prioritize automation over transparent decision support (Amershi et al., 2019).
 
 
 
@@ -122,19 +122,19 @@ This evaluation ensures that generative components enhance, rather than distort,
 
 
 
-\*\*Bias Risk:\*\* Online reviews are not representative samples. We mitigate this by emphasizing relative comparisons rather than absolute judgments and explicitly documenting sampling limitations.
+**Bias Risk:** Online reviews are not representative samples. We mitigate this by emphasizing relative comparisons rather than absolute judgments and explicitly documenting sampling limitations.
 
 
 
-\*\*Reliability Risk:\*\* Neural models may produce overconfident predictions. We mitigate this through confidence thresholding and transparency in probability reporting.
+**Reliability Risk:** Neural models may produce overconfident predictions. We mitigate this through confidence thresholding and transparency in probability reporting.
 
 
 
-\*\*Interpretation Risk:\*\* Users may misinterpret automated summaries. We address this through uncertainty-aware language and interface design grounded in human-AI interaction principles.
+**Interpretation Risk:** Users may misinterpret automated summaries. We address this through uncertainty-aware language and interface design grounded in human-AI interaction principles.
 
 
 
-\*\*Privacy Risk:\*\* The dataset consists of publicly available reviews. Where possible, identifiable information will be anonymized.
+**Privacy Risk:** The dataset consists of publicly available reviews. Where possible, identifiable information will be anonymized.
 
 
 
