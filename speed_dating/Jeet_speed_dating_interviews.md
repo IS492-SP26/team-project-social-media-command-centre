@@ -1,4 +1,5 @@
-# McDonald's Qualitative Interview Scripts  
+# Jeet Thakore (jeetpt2)
+McDonald's Qualitative Interview Scripts  
 Social Media Command Centre Project  
 University of Illinois Urbana Champaign  
 
