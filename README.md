@@ -133,9 +133,9 @@ mcdo-copilot/
 
 | Name | Role |
 |---|---|
-| Pranav C | AI integration, backend architecture, data pipeline, visualizations |
-| Jeet T | — |
-| Ashish G | — |
+| Pranav C | Backend & AI integration |
+| Jeet T | Frontend & UI/UX |
+| Ashish G | Data Engineering & Visualizations |
 
 **Course:** IS492 — Generative AI for Human-AI Collaboration
 **Institution:** University of Illinois Urbana-Champaign
