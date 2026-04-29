@@ -343,18 +343,31 @@ def _inject_css() -> None:
 
     /* ── Selectbox / multiselect dropdown options ───────────────────────── */
     [data-baseweb="popover"],
+    [data-baseweb="popover"] > div,
     [data-baseweb="popover"] ul,
+    [data-baseweb="list"],
     [data-baseweb="menu"] {{
         background-color: #FFFFFF !important;
+        color: {MCD_DARK} !important;
     }}
     [data-baseweb="popover"] [role="option"],
     [data-baseweb="popover"] li,
-    [data-baseweb="menu"] [role="option"] {{
+    [data-baseweb="list"] li,
+    [data-baseweb="menu"] [role="option"],
+    [role="listbox"] [role="option"],
+    ul[role="listbox"] li {{
         color: {MCD_DARK} !important;
         background-color: #FFFFFF !important;
     }}
+    [data-baseweb="popover"] [role="option"] *,
+    [data-baseweb="list"] li *,
+    [role="listbox"] [role="option"] * {{
+        color: {MCD_DARK} !important;
+    }}
     [data-baseweb="popover"] [role="option"]:hover,
-    [data-baseweb="menu"] [role="option"]:hover {{
+    [data-baseweb="list"] li:hover,
+    [data-baseweb="menu"] [role="option"]:hover,
+    [role="listbox"] [role="option"]:hover {{
         background-color: #FFE9A0 !important;
         color: {MCD_DARK} !important;
     }}
