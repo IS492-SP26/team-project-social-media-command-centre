@@ -341,10 +341,21 @@ def _inject_css() -> None:
         font-style: italic;
     }}
 
-    /* ── Selectbox dropdown options ─────────────────────────────────────── */
+    /* ── Selectbox / multiselect dropdown options ───────────────────────── */
+    [data-baseweb="popover"],
+    [data-baseweb="popover"] ul,
+    [data-baseweb="menu"] {{
+        background-color: #FFFFFF !important;
+    }}
     [data-baseweb="popover"] [role="option"],
     [data-baseweb="popover"] li,
     [data-baseweb="menu"] [role="option"] {{
+        color: {MCD_DARK} !important;
+        background-color: #FFFFFF !important;
+    }}
+    [data-baseweb="popover"] [role="option"]:hover,
+    [data-baseweb="menu"] [role="option"]:hover {{
+        background-color: #FFE9A0 !important;
         color: {MCD_DARK} !important;
     }}
 
