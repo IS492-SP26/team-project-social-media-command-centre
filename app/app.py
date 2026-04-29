@@ -341,35 +341,29 @@ def _inject_css() -> None:
         font-style: italic;
     }}
 
-    /* ── Selectbox / multiselect dropdown options ───────────────────────── */
-    [data-baseweb="popover"],
-    [data-baseweb="popover"] > div,
-    [data-baseweb="popover"] ul,
-    [data-baseweb="list"],
-    [data-baseweb="menu"] {{
+    /* ── Dropdown options — scoped to listbox, not system menus ─────────── */
+    [role="listbox"] {{
         background-color: #FFFFFF !important;
-        color: {MCD_DARK} !important;
+        color: #1A1A1A !important;
     }}
-    [data-baseweb="popover"] [role="option"],
-    [data-baseweb="popover"] li,
-    [data-baseweb="list"] li,
-    [data-baseweb="menu"] [role="option"],
     [role="listbox"] [role="option"],
-    ul[role="listbox"] li {{
-        color: {MCD_DARK} !important;
+    [role="listbox"] li {{
         background-color: #FFFFFF !important;
+        color: #1A1A1A !important;
     }}
-    [data-baseweb="popover"] [role="option"] *,
-    [data-baseweb="list"] li *,
-    [role="listbox"] [role="option"] * {{
-        color: {MCD_DARK} !important;
+    [role="listbox"] [role="option"] *,
+    [role="listbox"] li * {{
+        color: #1A1A1A !important;
+        background-color: transparent !important;
     }}
-    [data-baseweb="popover"] [role="option"]:hover,
-    [data-baseweb="list"] li:hover,
-    [data-baseweb="menu"] [role="option"]:hover,
-    [role="listbox"] [role="option"]:hover {{
+    [role="listbox"] [role="option"]:hover,
+    [role="listbox"] li:hover {{
         background-color: #FFE9A0 !important;
-        color: {MCD_DARK} !important;
+        color: #1A1A1A !important;
+    }}
+    [role="listbox"] [role="option"][aria-selected="true"] {{
+        background-color: #FFE9A0 !important;
+        color: #1A1A1A !important;
     }}
 
     /* Reviews Used table header */
