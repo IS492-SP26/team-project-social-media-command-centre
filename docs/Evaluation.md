@@ -23,7 +23,7 @@ Evaluate the usability, usefulness, and trustworthiness of the McDonald's Social
 
 ### Session Format
 - **Mode:** In-person (preferred) or remote via screen share (Zoom/Teams)
-- **Duration:** ~35–45 minutes per session
+- **Duration:** ~20-25 minutes per session
 - **Compensation:** None required (course context); optional coffee/snack if in-person
 
 ---
