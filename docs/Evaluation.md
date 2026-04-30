@@ -34,7 +34,7 @@ Evaluate the usability, usefulness, and trustworthiness of the McDonald's Social
 
 ---
 
-"Thank you for agreeing to participate in this study. My name is [FACILITATOR NAME] and I'm a student at the University of Illinois Urbana-Champaign working on a class project for IS492.
+"Thank you for agreeing to participate in this study. My name is Ashish and I'm a student at the University of Illinois Urbana-Champaign along wiht my friends Jeet & Pranav working on a class project for IS492.
 
 Today I'm going to ask you to use a web application we built that analyzes McDonald's customer reviews. The session will take about 35–45 minutes.
 
