@@ -1,4 +1,4 @@
-# McDonald's Social Media Command Centre — Complete Project Context
+# McDonald's Social Media Command Centre — Project Report
 
 > This document is a single-source summary of the entire project, intended to be passed to an AI model for generating a presentation. It covers the problem, solution, technical implementation, features, design decisions, safety, and user study results end-to-end.
 
