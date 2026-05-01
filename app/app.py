@@ -341,11 +341,29 @@ def _inject_css() -> None:
         font-style: italic;
     }}
 
-    /* ── Selectbox dropdown options ─────────────────────────────────────── */
-    [data-baseweb="popover"] [role="option"],
-    [data-baseweb="popover"] li,
-    [data-baseweb="menu"] [role="option"] {{
-        color: {MCD_DARK} !important;
+    /* ── Dropdown options — scoped to listbox, not system menus ─────────── */
+    [role="listbox"] {{
+        background-color: #FFFFFF !important;
+        color: #1A1A1A !important;
+    }}
+    [role="listbox"] [role="option"],
+    [role="listbox"] li {{
+        background-color: #FFFFFF !important;
+        color: #1A1A1A !important;
+    }}
+    [role="listbox"] [role="option"] *,
+    [role="listbox"] li * {{
+        color: #1A1A1A !important;
+        background-color: transparent !important;
+    }}
+    [role="listbox"] [role="option"]:hover,
+    [role="listbox"] li:hover {{
+        background-color: #FFE9A0 !important;
+        color: #1A1A1A !important;
+    }}
+    [role="listbox"] [role="option"][aria-selected="true"] {{
+        background-color: #FFE9A0 !important;
+        color: #1A1A1A !important;
     }}
 
     /* Reviews Used table header */
