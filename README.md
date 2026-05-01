@@ -41,13 +41,28 @@ Filter by **city** and **time window** to drill into exactly the reviews that ma
 
 ---
 
+### 🏪 Branch Health Overview
+
+A at-a-glance health table across all branches, showing:
+
+| Column | What it shows |
+|---|---|
+| **Status** | 🔴 Critical (< 2.5) / 🟡 At Risk (2.5–3.5) / 🟢 Healthy (> 3.5) |
+| **Avg Rating** | Average star rating across all reviews |
+| **Trend** | ⬆️ Improving / ⬇️ Declining / ➡️ Stable vs. the prior 30-day period |
+| **Review Count** | Total number of reviews |
+
+Click any row to instantly load that branch in the AI Co-Pilot.
+
+---
+
 ### 🤖 AI Manager Co-Pilot
 
-Powered by **Anthropic Claude**, the Co-Pilot reads up to 20 of the most recent filtered reviews and generates a structured management brief in three sections:
+Powered by **Anthropic Claude**, the Co-Pilot filters reviews at the **branch/street level** and reads up to 20 of the most recent reviews to generate a structured management brief in three sections:
 
 - **SUMMARY** — Overall sentiment and key themes from the reviews
 - **ACTION ITEMS** — Concrete, prioritised steps for the manager to take
-- **STAFF BRIEFING** — A ready-to-share update for the front-line team
+- **STAFF BRIEFING** — A ready-to-share update for the front-line team, downloadable as a `.txt` file
 
 All AI interactions are logged to a local SQLite database for auditability.
 
@@ -95,7 +110,7 @@ pip install -r requirements.txt
 ### 4. Run the app
 
 ```bash
-streamlit run app/app.py
+python -m streamlit run app/app.py
 ```
 
 The app will open in your browser at `http://localhost:8501`.
